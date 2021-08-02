@@ -1,7 +1,7 @@
 module.exports = {
   prefix: '',
   purge: {
-    enabled: false, // change to true for production
+    enabled: true, // change to true for production
     content: ['./src/**/*.html'],
   },
   darkMode: 'class',
