@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "farm-5a04e": {
+      "hosting": {
+        "angular-tailwind": [
+          "farm-5a04e"
+        ]
+      }
+    }
+  }
+}

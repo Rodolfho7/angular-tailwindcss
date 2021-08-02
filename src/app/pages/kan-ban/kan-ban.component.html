@@ -1,0 +1,214 @@
+<div class="h-screen flex">
+  <div class="bg-gray-100 w-64 border-r px-8 py-3">
+    <img class="h-9 w-9" src="assets/flutter_logo.svg" alt="">
+    <nav class="mt-8">
+      <h3 class="text-xs font-semibold text-gray-600 uppercase tracking-wide">issues</h3>
+      <div class="mt-2 -mx-3">
+        <a href="#"
+          class="flex justify-between items-center bg-gray-200 text-sm font-medium text-gray-900 rounded-lg px-3 py-1">
+          <span class="issue-name">All</span>
+          <span class="issue-number">36</span>
+        </a>
+        <a href="#" class="flex justify-between items-center text-sm font-medium text-gray-900 rounded-lg px-3 py-1">
+          <span class="issue-name">Assigned to me</span>
+          <span class="issue-number">2</span>
+        </a>
+        <a href="#" class="flex justify-between items-center text-sm font-medium text-gray-900 rounded-lg px-3 py-1">
+          <span class="issue-name">Created by me</span>
+          <span class="issue-number">1</span>
+        </a>
+        <a href="#" class="flex justify-between items-center text-sm font-medium text-gray-900 rounded-lg px-3 py-1">
+          <span class="issue-name">Archived</span>
+          <span class="issue-number"></span>
+        </a>
+      </div>
+
+
+      <h3 class="text-xs font-semibold text-gray-600 uppercase tracking-wide mt-8">tags</h3>
+      <div class="mt-2 -mx-3">
+        <a href="#" class="flex justify-between items-center  text-sm font-medium text-gray-900 rounded-lg px-3 py-1">
+          <span class="text-sm font-medium text-gray-700">Bug</span>
+        </a>
+        <a href="#" class="flex justify-between items-center  text-sm font-medium text-gray-900 rounded-lg px-3 py-1">
+          <span class="text-sm font-medium text-gray-700">Feature Request</span>
+        </a>
+        <a href="#" class="flex justify-between items-center  text-sm font-medium text-gray-900 rounded-lg px-3 py-1">
+          <span class="text-sm font-medium text-gray-700">Marketing</span>
+        </a>
+        <a href="#" class="flex justify-between items-center  text-sm font-medium text-gray-900 rounded-lg px-3 py-1">
+          <span class="text-sm font-medium text-gray-700">v2.0</span>
+        </a>
+        <a href="#" class="flex justify-between items-center  text-sm font-medium text-gray-900 rounded-lg px-3 py-1">
+          <span class="text-sm font-medium text-gray-700">Enhancement</span>
+        </a>
+        <a href="#" class="flex justify-between items-center  text-sm font-medium text-gray-900 rounded-lg px-3 py-1">
+          <span class="text-sm font-medium text-gray-700">Design</span>
+        </a>
+      </div>
+      <button class="flex items-center text-sm font-medium text-gray-600 mt-3">
+        <svg viewBox="0 0 24 24" fill="none" class="h-5 w-5 text-gray-500">
+          <path d="M12 7v10m5-5H7" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+        </svg>
+        <span class="ml-1">New Project</span>
+      </button>
+    </nav>
+  </div>
+
+
+
+  <div class="flex-1 min-w-0 bg-white">
+    <div class="border-b-2 border-gray-200">
+      <header class="px-6">
+        <div class="border-b border-gray-200 flex justify-between items-center py-3">
+          <!--lado esquerdo do header-->
+          <div class="relative">
+            <span class="absolute inset-y-0 left-0 flex items-center pl-2">
+              <svg viewBox="0 0 24 24" fill="none" class="h-6 w-6 text-gray-500">
+                <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" stroke="currentColor" stroke-width="2"
+                  stroke-linecap="round" />
+              </svg>
+            </span>
+            <input placeholder="search"
+              class="text-gray-900 text-sm placeholder-gray-600 rounded-md border border-gray-400 pl-10 pr-4 py-2" />
+          </div>
+
+          <!--lado direito do header-->
+          <div class="flex items-center">
+            <button>
+              <svg viewBox="0 0 448 512" fill="gray" class="h-6 w-6">
+                <path
+                  d="M439.39 362.29c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71zM67.53 368c21.22-27.97 44.42-74.33 44.53-159.42 0-.2-.06-.38-.06-.58 0-61.86 50.14-112 112-112s112 50.14 112 112c0 .2-.06.38-.06.58.11 85.1 23.31 131.46 44.53 159.42H67.53zM224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64z"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+            </button>
+            <button class="ml-6">
+              <img class="w-9 h-9 object-cover rounded-full"
+                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="">
+            </button>
+          </div>
+        </div>
+        <div class="py-2 flex justify-between items-center">
+          <div class="flex items-center">
+            <h2 class="text-2xl font-semibold text-gray-900 leading-tight">
+              All Issues
+            </h2>
+            <div class="flex -space-x-2 ml-6">
+              <img class="w-6 h-6 object-cover border-2 border-white rounded-full"
+                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="">
+              <img class="w-6 h-6 object-cover border-2 border-white rounded-full"
+                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="">
+              <img class="w-6 h-6 object-cover border-2 border-white rounded-full"
+                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="">
+              <img class="w-6 h-6 object-cover border-2 border-white rounded-full"
+                src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                alt="">
+            </div>
+          </div>
+          <div class="flex items-center">
+            <span class="bg-gray-200 flex items-center justify-between p-1 border rounded-md mr-3">
+              <button class="px-3 py-1 rounded">
+                <svg class="h-4 w-4 text-gray-500" viewBox="0 0 448 512">
+                  <path fill="currentColor"
+                    d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </button>
+              <button class="px-3 py-1 rounded bg-gray-50 shadow-md">
+                <svg class="h-4 w-4 text-gray-500" viewBox="0 0 512 512">
+                  <path fill="currentColor"
+                    d="M296 32h192c13.255 0 24 10.745 24 24v160c0 13.255-10.745 24-24 24H296c-13.255 0-24-10.745-24-24V56c0-13.255 10.745-24 24-24zm-80 0H24C10.745 32 0 42.745 0 56v160c0 13.255 10.745 24 24 24h192c13.255 0 24-10.745 24-24V56c0-13.255-10.745-24-24-24zM0 296v160c0 13.255 10.745 24 24 24h192c13.255 0 24-10.745 24-24V296c0-13.255-10.745-24-24-24H24c-13.255 0-24 10.745-24 24zm296 184h192c13.255 0 24-10.745 24-24V296c0-13.255-10.745-24-24-24H296c-13.255 0-24 10.745-24 24v160c0 13.255 10.745 24 24 24z"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                </svg>
+              </button>
+            </span>
+            <button class="flex items-center text-sm font-medium text-white bg-gray-900 hover:bg-gray-700 rounded-md px-3 py-2">
+              <svg viewBox="0 0 24 24" fill="none" class="h-4 w-4 text-white">
+                <path d="M12 7v10m5-5H7" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+              </svg>
+              <span class="ml-1 leading-tight">New Issue</span>
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div>
+      <main class="p-3 flex">
+        <div class="bg-gray-100 p-3 w-80 rounded-md">
+          <h1 class="text-sm font-medium pb-3 text-gray-900">BackLog</h1>
+          <ul class="space-y-3">
+            <li class="w-full bg-white rounded-md shadow p-5">
+              <div class="flex">
+                <p class="text-gray-900 text-md leading-snug">Add discount code to checkout page</p>
+                <img
+                  class="rounded-full h-6 w-6"
+                  src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                >
+              </div>
+              <div class="flex justify-between mt-2 items-center">
+                <span class="text-gray-600 text-sm">Sep 24</span>
+                <button class="py-1 flex items-center bg-green-200 text-green-900 rounded-sm shadow-sm hover:bg-green-300">
+                  <span class="px-2">
+                    <svg class="h-2 w-2 text-green-900" viewBox="0 0 8 8" fill="currentColor">
+                      <circle cx="4" cy="4" r="3" />
+                    </svg>
+                  </span>
+                  <span class="pr-2 leading-tight text-sm font-medium">
+                    Feature Request
+                  </span>
+                </button>
+              </div>
+            </li>
+            <li class="w-full bg-white rounded-md shadow p-5">
+              <div class="flex">
+                <p class="text-gray-900 text-md leading-snug">Add discount code to checkout page</p>
+                <img
+                  class="rounded-full h-6 w-6"
+                  src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                >
+              </div>
+              <div class="flex justify-between mt-2 items-center">
+                <span class="text-gray-600 text-sm">Sep 24</span>
+                <button class="py-1 flex items-center bg-green-200 text-green-900 rounded-sm shadow-sm hover:bg-green-300">
+                  <span class="px-2">
+                    <svg class="h-2 w-2 text-green-900" viewBox="0 0 8 8" fill="currentColor">
+                      <circle cx="4" cy="4" r="3" />
+                    </svg>
+                  </span>
+                  <span class="pr-2 leading-tight text-sm font-medium">
+                    Feature Request
+                  </span>
+                </button>
+              </div>
+            </li>
+            <li class="w-full bg-white rounded-md shadow p-5">
+              <div class="flex">
+                <p class="text-gray-900 text-md leading-snug">Add discount code to checkout page</p>
+                <img
+                  class="rounded-full h-6 w-6"
+                  src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""
+                >
+              </div>
+              <div class="flex justify-between mt-2 items-center">
+                <span class="text-gray-600 text-sm">Sep 24</span>
+                <button class="py-1 flex items-center bg-green-200 text-green-900 rounded-sm shadow-sm hover:bg-green-300">
+                  <span class="px-2">
+                    <svg class="h-2 w-2 text-green-900" viewBox="0 0 8 8" fill="currentColor">
+                      <circle cx="4" cy="4" r="3" />
+                    </svg>
+                  </span>
+                  <span class="pr-2 leading-tight text-sm font-medium">
+                    Feature Request
+                  </span>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </main>
+    </div>
+  </div>
+</div>
